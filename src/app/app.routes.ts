@@ -10,12 +10,15 @@ export const routes: Routes = [
         children: [
             {
                 path: '',
-                component: Home
+                component: Home,
+                title: 'Inicio Admin'
             },
             {
                 path: 'ui',
-                component: Ui
-            }
+                component: Ui,
+                title: 'Ui Componentes'
+            },
+            { path: '**', redirectTo: '' }
         ]
 
     }

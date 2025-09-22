@@ -29,24 +29,7 @@ export class AppMenu {
                 items: [
                     { label: 'ui', icon: 'pi pi-fw pi-id-card', routerLink: ['/ui'] }
                 ]
-            },
-            {
-                label: 'Paginas',
-                icon: 'pi pi-fw pi-briefcase',
-                routerLink: ['/pages'],
-                items: [
-                    {
-                        label: 'Landing',
-                        icon: 'pi pi-fw pi-globe',
-                        routerLink: ['/landing']
-                    },
-                    {
-                        label: 'Crud',
-                        icon: 'pi pi-fw pi-pencil',
-                        routerLink: ['/pages/crud']
-                    },
-                ]
-            },
+            }
         ];
     }
 }
